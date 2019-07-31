@@ -1,0 +1,16 @@
+CREATE TABLE `billing` (
+  `cid` varchar(500),
+  `pid` varchar(500),
+  `sold_qty` varchar(500),
+  `cost` varchar(500),
+  `total` varchar(500),
+  `billno` varchar(500),
+  `status` varchar(500));
+
+CREATE TABLE `products` (
+  `pid` varchar(500),
+  `pname` varchar(500),
+  `pcost` varchar(500),
+  `pqty` varchar(500),
+  `poffer` varchar(500),  
+  `pdept` varchar(200));
